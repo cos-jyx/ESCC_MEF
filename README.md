@@ -38,3 +38,4 @@ Activate the environment
 2. Run train.py to train the model<br>
 3. Run test.py to test the model<br>
 # Model performance
+If it runs properly, you will get the following results
