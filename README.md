@@ -30,7 +30,7 @@ After setting up Miniconda, instal SimpleITK
 ```
 Then, create a conda environment
 ```
-      onda create -n ESCC_MEF python=3.8.6
+      conda create -n ESCC_MEF python=3.8.6
 ```
 Activate the environment
 ```
