@@ -1,5 +1,8 @@
 # ESCC_MEF
-This is the implementation of the submitted paper “Development and Validation of a Prediction Model for Treatment-related Malignant Fistulas in Advanced Esophageal Squamous Cell Carcinoma”.
+This is the implementation of the submitted paper “Development and Validation of a Prediction Model for Treatment-related Malignant Fistulas in Advanced Esophageal Squamous Cell Carcinoma”.<br>
+Here is the main framework of the model
+![framework](https://github.com/cos-jyx/ESCC_MEF/blob/main/picture/framework.png)
+
 # Data
 To facilitate model training, the data used should be cropped out of the oesophageal cancer region after preprocessing with a size of (10,32,32) for model training and inference.
 # Requirements
@@ -33,9 +36,11 @@ Activate the environment
 ```
       conda activate ESCC_MEF
 ```
+Finally, install the python package as described above.
 # How to run
 1. Cropping of oesophageal cancer tumour region image using Rertangle.py file<br>
 2. Run train.py to train the model<br>
 3. Run test.py to test the model<br>
 # Model performance
 If it runs properly, you will get the following results
+![auc](https://github.com/cos-jyx/ESCC_MEF/blob/main/picture/auc.png)
