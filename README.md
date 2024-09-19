@@ -14,7 +14,27 @@ matplotlib =3.7.3<br>
 pandas =1.4.3<br>
 tqdm =4.64.0<br>
 SimpleITK =2.2.0<br>
+# Installation guide
+First, install Miniconda on your machine (download the distribution that comes with python3).<br>
+```
+      wget https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/Miniconda3-py38_4.8.3-Linux-x86_64.sh --no-check-certificate
+      bash Miniconda3-py38_4.8.3-Linux-x86_64.sh
+      conda -V
+```
+After setting up Miniconda, instal SimpleITK
+```
+      conda install simpleitk
+```
+Then, create a conda environment
+```
+      onda create -n ESCC_MEF python=3.8.6
+```
+Activate the environment
+```
+      conda activate ESCC_MEF
+```
 # How to run
 1. Cropping of oesophageal cancer tumour region image using Rertangle.py file<br>
 2. Run train.py to train the model<br>
 3. Run test.py to test the model<br>
+# Model performance
